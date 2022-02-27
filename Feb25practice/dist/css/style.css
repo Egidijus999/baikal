@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+body {
+margin: 0;
+padding: 0;
+}
+section {
+    width: 100%;
+    height: 200vh;
+        
+}
+.section1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #b5b5b5;
+}
+.nav1 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.logo1 {
+    color: white;
+    display: inline-block;
+    padding-left: 10%;
+}
+.baikal {   
+    font-family: 'Lora', serif;
+font-family: 'Secular One', sans-serif;
+}
+.nav2 {
+    display: inline-block;  
+    width: 80%;
+    padding-left: 50%;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+li {
+    float: left;    
+}
+select {
+    border: none;
+    background-color: #b5b5b5 ;
+    color: white;   
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.submit {
+    
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #b5b5b5;
+    border-color: white;
+} 
+.title1 { 
+    padding-top: 15%;   
+    color: white;
+    text-align: center;     
+}
+.title2 {   
+    padding-top: 1%; 
+    color: white;
+    text-align: center;     
+}
+.submit1 {
+    margin: 4% 0 0 46%;
+    width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    background-color:#36b3a8 ; 
+    border: none;       
+}
+/* section2 */
+.text1 {
+    padding-top: 3%;
+    text-align: center;
+}
+.text2 {
+    text-align: center;
+    padding: 4% 20% 0;
+}
+.section3 {
+    margin: 0 auto;
+    width: 60%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ 
+.left1 img {
+    width: 88%;
+      
+} 
+.left1 {
+    width: 100%;       
+} 
+.right1 {
+    width: 100%;   
+}  
+.title3 {
+    padding: 3% 0;
+    text-align: center;
+    color: #36b3a8;
+} 
+.text3 {
+    width: 70%;
+    text-align: center;
+}
+.section4 {
+    width: 100%;
+    height: 5%;
+    background-color: #2b2b2b;  
+    color: white;
+     
+    
+}
+
+.section5 {
+    padding-top: 3%;
+    width: 100%;
+    height: 10%;
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;   
+}
+.p1 {
+    display: inline-block;
+    opacity: 0.5;
+}
+.href1 {
+    opacity: 0.5;
+}
+li {
+    list-style-type: none;
+    font-size: x-large;  
+    padding:2% 0 0 1%; 
+      
+}
+.i11 {
+    margin-left: 44%;
+}
+
+
+   
