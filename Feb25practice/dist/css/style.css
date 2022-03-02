@@ -42,23 +42,38 @@ font-family: 'Secular One', sans-serif;
 li {
     float: left;    
 }
-select {
+select { 
+    width: 15%;   
     border: none;
     background-color: #b5b5b5 ;
     color: white;   
 }
-a {
+.select1:hover {
+    width: 15%;
+    height: 15%;
+    
+    background-color: black;
+}
+.href1 {
     color: white;
     text-decoration: none;
 }
-.submit {
+.href1:hover {
+    color: white;
+}
+.submit {    
     
-    width: 130px;
     height: 40px;
     border-radius: 20px;
     background-color: #b5b5b5;
     border-color: white;
+    color: white; 
+    padding: 0 7%;   
 } 
+.submit:hover{
+    background-color: white;
+    color: black;
+}
 .title1 { 
     padding-top: 15%;   
     color: white;
@@ -137,6 +152,14 @@ a {
 }
 .href1 {
     opacity: 0.5;
+}
+.href2 {
+    color: #36b3a8;
+    font-weight: bold;
+    margin-left: 40%;
+}
+i{
+color: #36b3a8;    
 }
 li {
     list-style-type: none;
